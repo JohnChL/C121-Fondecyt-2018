@@ -1,0 +1,4 @@
+Nota 29-07-2023
+
+* Los archivos "senamhi_2021_2023.csv" y "MEV1.csv" fueron procesados en un notebook de otro proyecto
+* Los datos de "senamhi_2021_2023.csv" contiene datos desde 01-02-2021 hasta 27-07-2023 
