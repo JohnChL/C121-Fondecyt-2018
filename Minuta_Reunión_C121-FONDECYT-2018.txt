@@ -1,0 +1,29 @@
+Reunión Miércoles 02 de agosto de 2023 – 5pm
+
+Presentes
+ 
+Se comienza la reunión semana con comentarios breves de los datos registrados
+en el módulo MEV donde se indicala posible falla de dataloggers, donde John
+sugiere que traslade los dataloggeres instalados en la posta de Tantamaco.
+ 
+Se queda que próximo viaje Dr Juan estará reemplazando los dataloggeres y 
+realizando las pruebas pertinentes, llevando los dataloggers del CER – UNI.
+
+También se comenta los primeros cálculos de demanda energética realizados por
+anteriores trabajos, donde se encontró que la demanda era de 10kWh/día para una
+vivienda típica construida, pero ahora que ya tiene todos los cambios en puertas
+ventanas y techo, se requiere un nuevo cálculo, que estará encargado de John para
+este análisis volviendo a crear el archivo base IDF de la vivienda MEV.
+
+Para finalizar, se comenta sobre las posibles soluciones para la calefacción,
+donde el Dr Manfred sugiere un colector de aire para la calefacción, realizando
+la circulación mediante unos ventiladores, lo cual presentará para la siguiente
+reunión un bosquejo de este sistema de calefacción. También existe dos posibles
+sistemas de calefacción, una a base de celula peltier, y otra la de convencional
+con circulación de agua. 
+
+Sin más pendientes se termina la reunión, quedando que enviaran los artículos
+para revisar sobre los colectores de aire y algunas fotografías que un trabajo
+anterior. 
+
+
