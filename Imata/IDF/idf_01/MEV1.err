@@ -1,0 +1,17 @@
+Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2023.08.13 20:06,IDD_Version 8.7.0
+   ** Warning ** Site:GroundTemperature:BuildingSurface: Some values fall outside the range of 15-25C.
+   **   ~~~   ** These values may be inappropriate.  Please consult the Input Output Reference for more details.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 2 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 1 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 25.51sec

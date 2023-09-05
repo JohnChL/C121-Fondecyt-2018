@@ -1,0 +1,178 @@
+
+ Meters for 11,ATICO CEN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO CEN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATICO CEN [J]
+
+ Meters for 62,ATICO CEN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO CEN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATICO CEN [J]
+
+ Meters for 83,ATICO E:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO E [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATICO E [J]
+
+ Meters for 104,ATICO E:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO E [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATICO E [J]
+
+ Meters for 115,MODULO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MODULO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MODULO [J]
+
+ Meters for 136,MODULO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MODULO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MODULO [J]
+
+ Meters for 147,ATICO O:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO O [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATICO O [J]
+
+ Meters for 168,ATICO O:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATICO O [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATICO O [J]
+
+ Meters for 179,MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 210,MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 241,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 262,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 263,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ATICO CEN:Zone Air System Sensible Heating Energy
+  ATICO CEN:Zone Air System Sensible Cooling Energy
+  ATICO E:Zone Air System Sensible Heating Energy
+  ATICO E:Zone Air System Sensible Cooling Energy
+  MODULO:Zone Air System Sensible Heating Energy
+  MODULO:Zone Air System Sensible Cooling Energy
+  ATICO O:Zone Air System Sensible Heating Energy
+  ATICO O:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ATICO CEN:Zone Air System Sensible Heating Energy
+  ATICO CEN:Zone Air System Sensible Cooling Energy
+  ATICO E:Zone Air System Sensible Heating Energy
+  ATICO E:Zone Air System Sensible Cooling Energy
+  MODULO:Zone Air System Sensible Heating Energy
+  MODULO:Zone Air System Sensible Cooling Energy
+  ATICO O:Zone Air System Sensible Heating Energy
+  ATICO O:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATICO CEN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATICO CEN:Zone Air System Sensible Heating Energy
+  ATICO CEN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ATICO CEN:Zone Air System Sensible Heating Energy
+  ATICO E:Zone Air System Sensible Heating Energy
+  MODULO:Zone Air System Sensible Heating Energy
+  ATICO O:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATICO CEN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATICO CEN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ATICO CEN:Zone Air System Sensible Cooling Energy
+  ATICO E:Zone Air System Sensible Cooling Energy
+  MODULO:Zone Air System Sensible Cooling Energy
+  ATICO O:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATICO CEN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATICO CEN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATICO E [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATICO E:Zone Air System Sensible Heating Energy
+  ATICO E:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATICO E [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATICO E:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATICO E [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATICO E:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MODULO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MODULO:Zone Air System Sensible Heating Energy
+  MODULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MODULO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MODULO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MODULO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MODULO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATICO O [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATICO O:Zone Air System Sensible Heating Energy
+  ATICO O:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATICO O [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATICO O:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATICO O [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATICO O:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  MODULO IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

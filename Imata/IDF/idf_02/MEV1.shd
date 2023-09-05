@@ -1,0 +1,257 @@
+Shadowing Combinations
+..Solar Distribution=FullInteriorAndExteriorWithReflectionsFromExteriorSurfaces
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=SHADING SURFACE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=TIMPE_E
+..Surface=PAREDE
+..Surface=PARESN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=PARESN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+..Surface=PAREDO
+..Surface=PARESN
+..Surface=TIMPO_O
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 1
+..Surface=PAREDO
+..Surface=PAREDS
+..Surface=TIMPO_O
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADING SURFACE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADING SURFACE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 1
+..Surface=PAREDS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPCEN_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPCEN_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT ATICO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=CLARAB FT ATICO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TECHO CLARABN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=6
+...Surface=TIMPCEN_E
+...Surface=TIMPCEN_O
+...Surface=FT ATICO
+...Surface=CLARAB FT ATICO
+...Surface=TECHO CLARABS
+...Surface=CLARAB ALAS
+Number of receiving sub surfaces=1
+....Surface=CLARAB ALAN
+==================================
+Surface=CLARAB ALAN is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TECHO CLARABS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=6
+...Surface=TIMPCEN_E
+...Surface=TIMPCEN_O
+...Surface=FT ATICO
+...Surface=CLARAB FT ATICO
+...Surface=TECHO CLARABN
+...Surface=CLARAB ALAN
+Number of receiving sub surfaces=1
+....Surface=CLARAB ALAS
+==================================
+Surface=CLARAB ALAS is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPE_E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPE_O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT ATE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ALAN ATE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ALAS ATE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PAREDE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SHADING SURFACE 5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PAREDO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PAREDS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 2
+..Surface=Mir-SHADING SURFACE 3
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARESN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SHADING SURFACE 5
+..Surface=Mir-SHADING SURFACE 6
+..Surface=Mir-SHADING SURFACE 1
+Number of back surfaces=8
+...Surface=PAREDE
+...Surface=PAREDO
+...Surface=PAREDS
+...Surface=PISO
+...Surface=FT CLARAB MOD
+...Surface=CLARAB MOD
+...Surface=FT MOD E
+...Surface=FT MOD O
+Number of receiving sub surfaces=2
+....Surface=PUERTA
+....Surface=VENTANA
+==================================
+Surface=PUERTA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VENTANA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PISO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT CLARAB MOD is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=CLARAB MOD is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT MOD E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT MOD O is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPO_E is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TIMPO_O is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-SHADING SURFACE 1
+..Surface=Mir-SHADING SURFACE 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FT ATO is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ALAN ATO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ALAS ATO is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

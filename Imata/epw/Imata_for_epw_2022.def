@@ -1,0 +1,30 @@
+&location
+City='Imata'
+StateProv='Arequipa'
+Country='PERU'
+InLat=-15.846
+InLong=-71.093
+InElev=4469
+InTime=-5
+/
+
+&miscdata
+Comments1='archivo generado a partir de los datos de Solcast y Senamhi'
+
+SourceData = 'Solcast y Senamhi'
+/
+
+&wthdata
+NumInHour=1
+InputFileType='CUSTOM'
+InFormat='DELIMITED'
+DataElements=Year,Month,Day,Hour,Minute,DryBulb,relhum,atmos pressure,GloHorzRad,dirnorrad,winddir,windspd
+DataUnits=x,x,x,x,x,'C','%','Pa','Wh/m2','Wh/m2','degree','m/s'
+DataConversionFactors=1,1,1,1,1,1,1,1
+DelimiterChar=','
+/
+
+&datacontrol
+NumRecordsToSkip=0
+MaxNumRecordsToRead=525600
+/
